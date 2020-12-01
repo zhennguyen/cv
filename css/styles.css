@@ -1,138 +1,58 @@
-body {
-  color: #40514E;
-  margin: 0;
-  text-align: center;
-  font-family: 'Merriweather', serif;
+#title {
+  background-color: #ff4c68;
+  color: #fff;
 }
 
 h1 {
-  color: #66BFBF;
-  margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
-  font-size: 90px;
+  font-family: "Montserrat-Black";
+  font-size: 4rem;
+  line-height: 1.5;
 }
 
-.top {
-  background-color: #E4F9F5;
-  position: relative;
-  padding-top: 100px;
+.container-fluid {
+  padding: 3% 15%;
 }
 
-.pro {
-  text-decoration: underline;
+body {
+  font-family: "Montserrat";
 }
 
-.cloud {
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding: 0 0 4.5rem;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 500px;
-  top: 40px;
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
 }
 
 h3 {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
-}
-
-h2 {
-  color: #66BFBF;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  padding-bottom: 10px;
-  font-weight: normal;
-}
-
-.moi {
-  border-radius: 50%;
-  width: 300px;
-}
-
-.middle {
-  margin: 100px 0;
-}
-
-.skill-row {
-  width: 50%;
-  margin: 100px auto;
-  text-align: left;
-}
-
-.Calculatrice {
-  width: 200px;
-  float: left;
-  margin-right: 30px;
-}
-
-.chocolate {
-  width: 200px;
-  float: right;
-  margin-left: 30px;
-}
-
-.intro {
-  width: 30%;
-  margin: auto;
-}
-
-p {
-  line-height: 2;
-}
-
-hr {
-  border: dotted #EAF6F6 6px;
-  border-bottom: none;
-  margin: 100px auto;
-  width: 4%;
-}
-.myButton {
-	background-color:#44c767;
-	border-radius:8px;
-	border:1px solid #18ab29;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:20px;
-	padding:16px 31px;
-	text-decoration:none;
-	text-shadow:0 1px 0 #2f6627;
-}
-.myButton:hover {
-	background-color:#5cbf2a;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
-
-.bottom {
-  background-color: #66BFBF;
-  padding: 50px 0 20px;
-}
-
-a {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #EAF6F6;
-}
-
-.copy {
-  color: #EAF6F6;
-  font-size: 0.75rem;
-  padding: 20px 0;
-}
-
-.contact {
-  width: 40%;
-  margin: auto auto 50px auto;
+  font-family: "bold";
 }
