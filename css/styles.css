@@ -1,171 +1,157 @@
 .Intro {
-  background-color: #A3D2C4;
-  padding: 0 0 15.625rem 0;
+  background-color: #c6ebc9;
+  padding: 0 0 150px 0;
   position: relative;
   z-index: 1;
   overflow: hidden;
 }
 
-.navbar-brand {
-  font-size: 3rem !important;
-  font-family: 'Montserrat', sans-serif;
-}
-
 .big-heading {
-  position: absolute;
-  margin-left: 4.375rem;
-  margin-top: 1.875rem;
-  width: 31.25rem;
-  font-family:'Montserrat', sans-serif;
-  line-height: 3.75rem;
   color: #fff;
-  font-size: 3.125rem;
-  line-height: 60px;
+  font-size: 90px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 30px;
 }
 
-.Primark {
-  width: 43.75rem;
-  margin: 1.875rem;
-  border-radius: 100%;
-  position: absolute;
+.Casino-image {
+  height: 300px;
   z-index: -1;
-  transform: rotate(25deg);
+  position: absolute;
+  bottom: 0;
+  border-radius: 100%;
+  margin-top: 400px;
+  margin: 1.875rem;
 }
 
-.download-button {
-  margin-top: 15.625rem;
-  margin-left: 60px;
+
+.navbar-brand {
+  font-size: 60px!important;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .nav-item {
-  margin: 30px;
-  font-size: 1.5rem;
+  margin: 10px;
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-.icon {
-  margin-bottom: 1rem;
-  color: #d0e8f2;
+.Download-button {
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
-#feature {
-  padding: 1.875rem 3.125rem;
+.navbar {
+   margin-left: 30px;
+}
+
+#features {
   text-align: center;
   margin-top: 150px;
   margin-bottom: 150px;
 }
 
-.icon:hover {
-  color: #bedcfa;
-}
-
-@media (max-width: 1028px) {
-  .Primark {
-    transform: rotate(0deg);
-    position: static;
-  }
-}
-
-p {
-  color: #8f8f8f;
-}
-
-.play {
-  margin-top: 250px;
-  margin-left: 30px;
+.icon {
+  color: #c6ebc9;
 }
 
 h3 {
-  font-family:'Ubuntu', sans-serif;
+  color: #a3ddcb!important;
+  font-size: 30px!important;
+  font-family: 'Ubuntu', sans-serif!important;
 }
 
-.image {
-  border-radius: 100%;
-  height: 200px;
+.icon:hover {
+  color: #a3ddcb;
 }
 
-.testimonial-text {
-  font-family:'Montserrat', sans-serif;
-  font-size: 3rem;
-  color: #fff;
+.feature-box {
+  line-height: 30px;
+  margin: 20px;
 }
 
-#testimonials {
+p {
+  color: #e6e6e6;
+}
+
+#carousel {
+  background-color: #c6ebc9;
   text-align: center;
-  background-color: #a3d2ca;
-  padding-bottom: 100px;
-  padding-top: 100px;
-}
-
-.testimonial-text {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-bottom: 200px;
+  line-height: 20px;
 }
 
 em {
-  padding-left: 20px;
-  color: #8f8f8f;
-}
-
-#pricings {
-  text-align: center;
-  padding: 20px;
-  margin-bottom: 100px;
-}
-
-.pricing-column {
-  margin: auto;
-  margin-bottom: 30px;
-}
-
-.card-header {
-  font-family:'Ubuntu', sans-serif;
-}
-
-.carousel-control-prev {
-  margin: 30px 30px 30px 30px;
-}
-
-h2 {
-  font-family:'Ubuntu', sans-serif;
-}
-
-.carousel-control-next {
-  margin: 30px;
-}
-
-.title-pricing {
-  margin: 50px;
+  margin-left: 20px;
   color: #a3d2ca;
 }
 
-.paragraph-pricing {
- margin-bottom: 80px;
+.img-carousel {
+  border-radius: 100%;
+  height: 150px;
+  margin-top: 50px;
 }
 
-.navbar {
-  margin-left: 50px;
+.h2-carousel {
+  margin-top: 30px!important;
+  font-family: 'Montserrat', sans-serif!important;
+  font-size: 50px!important;
+  color: #fff;
 }
 
-#cta {
-  background-color: #d0e8f2;
-  padding-bottom: 150px;
+#pricing {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.h2-pricing {
+  color: #c6ebc9;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.p-pricing {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.card {
+   padding: 10px;
+}
+
+.h2-card {
+  color: #bedbbb;
+}
+
+#footer {
+  background-color: #c6ebc9!important;
+  padding-bottom: 200px;
   text-align: center;
 }
 
-.cta-text {
+.h3-footer {
   padding-top: 50px;
-  font-size: 50px;
-  color: #fff;
-  font-family:'Montserrat', sans-serif;
+  color: #fff !important;
+  font-size: 50px !important;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif!important;
 }
 
+.footers-button {
+  margin-top: 70px;
+  margin-right: 25px;
+}
 
-.button-cta {
-  margin-top: 100px;
-  margin-right: 20px;
+.footer-button {
+  margin-top: 70px;
 }
 
 .social-icon {
-  margin: 10px;
-  margin-top: 50px;
+  margin-top: 80px;
+}
+
+.socials-icon {
+  padding: 10px;
 }
